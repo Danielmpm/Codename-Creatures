@@ -12,3 +12,24 @@
 # really easy for them to get out of sync with changes to the level.
 *.pak
 Levels/Main_Test/_savebackup/
+Cache
+BinTemp
+Solutions
+*.db
+*.pyc
+*.options
+*.bak2
+*.bak
+*.dds
+*.ma.swatches
+*.mayaSwatches
+*.exportlog
+*.ilk
+*.suo
+*.user
+*.o
+*.temp
+*.bootstrap.digests
+*.log
+*.exp
+*.vssettings
