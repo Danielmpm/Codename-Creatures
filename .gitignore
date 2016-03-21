@@ -11,3 +11,4 @@
 # for now we should avoid checking them in because it is
 # really easy for them to get out of sync with changes to the level.
 *.pak
+Levels/Main_Test/_savebackup/

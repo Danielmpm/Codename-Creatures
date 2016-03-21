@@ -193,6 +193,16 @@
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
 				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{1930C266-8973-5183-8341-FED850563B24}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
+					<Class name="AZStd::string" field="relativePath" value="levels/main_test/leveldata/terraintexture.xml" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
+					<Class name="AZ::u64" field="sizeBytes" value="173" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{BC0486EA-3347-5D1A-BA7A-67344911BCEB}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				</Class>
@@ -678,7 +688,7 @@
 				</Class>
 				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
 					<Class name="AZStd::string" field="relativePath" value="assetcatalog.xml" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
-					<Class name="AZ::u64" field="sizeBytes" value="873196" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+					<Class name="AZ::u64" field="sizeBytes" value="1479132" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 				</Class>
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
@@ -1019,6 +1029,16 @@
 				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
 					<Class name="AZStd::string" field="relativePath" value="engineassets/textures/hiteffect_veinsblood.dds" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
 					<Class name="AZ::u64" field="sizeBytes" value="484" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{1C88AA0E-2CA9-5D20-AF63-0E03D8F49967}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
+					<Class name="AZStd::string" field="relativePath" value="levels/main_test/leveldata/timeofday.xml" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
+					<Class name="AZ::u64" field="sizeBytes" value="17327" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 				</Class>
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
@@ -4463,6 +4483,16 @@
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
 				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{B823238B-9048-5DDF-B6EC-C8A6AF8A8981}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
+					<Class name="AZStd::string" field="relativePath" value="levels/main_test/leveldata/gametokens.xml" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
+					<Class name="AZ::u64" field="sizeBytes" value="106" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{519F8920-A3E7-5645-95B6-65B9DBA7B567}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				</Class>
@@ -6793,6 +6823,16 @@
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
 				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{9777D36D-CA31-5775-8963-DF963773662C}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
+					<Class name="AZStd::string" field="relativePath" value="levels/main_test/filelist.xml" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
+					<Class name="AZ::u64" field="sizeBytes" value="220" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{45FE6C7D-130E-508E-9BBA-5F345084F6C2}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				</Class>
@@ -8249,6 +8289,16 @@
 				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
 					<Class name="AZStd::string" field="relativePath" value="editor/ui/icons/convertseltostaticentity.dds" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
 					<Class name="AZ::u64" field="sizeBytes" value="1516" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="AssetId" field="value1" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{1E247A7C-E5CC-5A43-BC84-44442A8E246B}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+				<Class name="AssetInfo" field="value2" type="{E6D8372B-8419-4287-B478-1353709A972F}">
+					<Class name="AZStd::string" field="relativePath" value="levels/main_test/leveldata/environment.xml" type="{EF8FF807-DDEE-4EB0-B678-4CA3A2C490A4}"/>
+					<Class name="AZ::u64" field="sizeBytes" value="1931" type="{D6597933-47CD-4FC8-B911-63F3E2B0993A}"/>
 				</Class>
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
@@ -11643,6 +11693,13 @@
 				</Class>
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="unsigned int" field="value1" value="2798492163" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{1930C266-8973-5183-8341-FED850563B24}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
 				<Class name="unsigned int" field="value1" value="3768893897" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{0F13A676-B612-51F9-B4AB-7EB8A480AA98}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
@@ -11765,6 +11822,13 @@
 				<Class name="unsigned int" field="value1" value="1955704355" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{9E72CFA9-9D8E-5448-9540-256D790C75D7}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="unsigned int" field="value1" value="2792123597" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{9777D36D-CA31-5775-8963-DF963773662C}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				</Class>
 			</Class>
@@ -13319,6 +13383,13 @@
 				<Class name="unsigned int" field="value1" value="1434213562" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{84B2B508-EFC4-55F7-9001-24A0F0349A2E}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="unsigned int" field="value1" value="131340919" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{B823238B-9048-5DDF-B6EC-C8A6AF8A8981}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				</Class>
 			</Class>
@@ -15031,6 +15102,13 @@
 				</Class>
 			</Class>
 			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="unsigned int" field="value1" value="642928561" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{1C88AA0E-2CA9-5D20-AF63-0E03D8F49967}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
 				<Class name="unsigned int" field="value1" value="1952566351" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{0B045783-EB3C-5E96-9587-24D84690CB7F}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
@@ -16427,6 +16505,13 @@
 				<Class name="unsigned int" field="value1" value="3336531389" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
 					<Class name="Uuid" field="guid" value="{69EF270D-4229-585F-B9EC-5E672A6E1060}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
+					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				</Class>
+			</Class>
+			<Class name="AZStd::pair" field="element" type="{9F3F5302-3390-407A-A6F7-2E011E3BB686}">
+				<Class name="unsigned int" field="value1" value="2735580460" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
+				<Class name="AssetId" field="value2" version="1" type="{652ED536-3402-439B-AEBE-4A5DBC554085}">
+					<Class name="Uuid" field="guid" value="{1E247A7C-E5CC-5A43-BC84-44442A8E246B}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 					<Class name="unsigned int" field="subId" value="0" type="{43DA906B-7DEF-4CA8-9790-854106D3F983}"/>
 				</Class>
 			</Class>
