@@ -1,0 +1,7 @@
+{
+    "project_name": "HideNSeek",
+    "product_name": "HideNSeek",
+    "executable_name": "HideNSeekLauncher",
+    "code_folder": "Code/HideNSeek",
+    "modules" : ["HideNSeek"]
+}

@@ -1,0 +1,27 @@
+{
+    "DefaultDeployment": "Development",
+
+    "deployment": {
+        "*": {
+            "feature": {
+                "HelloWorld": {
+                   "parameter": {
+                        "WriteCapacityUnits": 1,
+                        "ReadCapacityUnits": 1,
+                        "Greeting": "Hi"
+                    }
+                }
+            }
+        },
+        "Development": {
+           "feature": {
+                "HelloWorld": {
+                    "parameter": {
+                        "WriteCapacityUnits": 5,
+                        "ReadCapacityUnits": 5
+                    }
+                }
+            }
+        }
+    }
+}

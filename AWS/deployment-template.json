@@ -1,0 +1,62 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    
+    "Metadata": {
+        "CloudCanvas": {
+            "Id": "$Revision: #1 $"
+        }
+    },
+
+    "Parameters" : {
+    
+        "ProjectResourceHandler": {
+            "Type": "String",
+            "Description": "Service token of the custom resource handler."
+        },
+        
+        "ConfigurationBucket": {
+            "Type": "String",
+            "Description": "Bucket that contains configuration data."
+        },
+
+        "ConfigurationKey": {
+            "Type": "String",
+            "Description": "Location in the configuration bucket of configuration data."
+        }
+        
+    },
+
+    "Resources": {
+
+        "HelloWorldConfiguration" : {
+            "Type": "Custom::FeatureConfiguration",
+            "Properties": {
+                "ServiceToken": { "Ref": "ProjectResourceHandler" },
+                "ConfigurationBucket": { "Ref": "ConfigurationBucket" },
+                "ConfigurationKey": { "Ref": "ConfigurationKey" },
+                "FeatureName": "HelloWorld"
+            }
+        },
+        
+        "HelloWorld": {
+            "Type": "AWS::CloudFormation::Stack",
+            "Properties": {
+                "TemplateURL": { "Fn::GetAtt": [ "HelloWorldConfiguration", "TemplateURL" ] },
+                "Parameters": {
+                    "ProjectResourceHandler": { "Ref": "ProjectResourceHandler" },
+                    "ConfigurationBucket": { "Fn::GetAtt": [ "HelloWorldConfiguration", "ConfigurationBucket" ] },
+                    "ConfigurationKey": { "Fn::GetAtt": [ "HelloWorldConfiguration", "ConfigurationKey" ] }
+                }
+            }
+        }
+
+    },
+
+    "Outputs": {
+        "StackName": {
+            "Description": "The deployment stack name.",
+            "Value": {"Ref": "AWS::StackName"}
+        }
+    }
+    
+}
